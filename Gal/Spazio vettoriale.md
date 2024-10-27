@@ -182,7 +182,6 @@ n vettori linearmente indipendenti di V formano una sua base.
 Se $v_{0} \in W$ allora $A = W$
 
 
-
 > [!NOTE] Teorema di completamento + struttura per sottospazi vettoriali
 > Sia U sotto.vett. di V, e siano $u_{1}, \dots, u_{l}$ vett. linearmente indipendenti da U, allora, allora possiamo completare questo insieme ad una base $u_{1}, \dots, u_{l}, u_{l+1}, u_{m}$ di U con
 >  dim(U) = m $\leq$ dim(V).

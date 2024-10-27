@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "TODO.md",
+                "file": "Gal/Spazio vettoriale.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "TODO"
+              "title": "Spazio vettoriale"
             }
           }
         ],
@@ -179,9 +179,9 @@
   },
   "active": "9e1fd44cecac4854",
   "lastOpenFiles": [
+    "Gal/Spazio Vettoriale.md",
     "Gal/Spazio vettoriale.md",
     "TODO.md",
-    "Gal/Spazio Vettoriale.md",
     "Gal/Matrici.md",
     "Analisi 1/Limiti di successione.md",
     "Info/Vettori.md",
