@@ -1,0 +1,196 @@
+{
+  "main": {
+    "id": "659406f7909852e6",
+    "type": "split",
+    "children": [
+      {
+        "id": "03c756e47aff900a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e57c734b1bc43fc7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Gal/Spazio vettoriale.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Spazio vettoriale"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "d629930a99d67b81",
+    "type": "split",
+    "children": [
+      {
+        "id": "a70147a4f8e9fc78",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "f57e9397ca9d5c49",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "76b8f97288bf8f5f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "7c8f7f8b86b87f36",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "right": {
+    "id": "ea3db3de9363d383",
+    "type": "split",
+    "children": [
+      {
+        "id": "e82e733edc46fe87",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ee353e9e1c9ef268",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Gal/Spazio vettoriale.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Spazio vettoriale"
+            }
+          },
+          {
+            "id": "d0249248c58bfdd1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Gal/Spazio vettoriale.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Spazio vettoriale"
+            }
+          },
+          {
+            "id": "11ac86e8c1690004",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "04c448dcfa183036",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Gal/Spazio vettoriale.md"
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Spazio vettoriale"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "e57c734b1bc43fc7",
+  "lastOpenFiles": [
+    "Gal/Spazio Vettoriale.md",
+    "Gal/Spazio vettoriale.md",
+    "Gal/Matrici.md",
+    "Analisi 1/Limiti di successione.md",
+    "Info/Vettori.md",
+    "Info/Cicli.md",
+    "Info/Selezione, op. logici.md",
+    "Info/Untitled.md",
+    "greek_alpha.png",
+    "Gal/imgs/Pasted image 20241009154452.png",
+    "A,.md",
+    "Gal/imgs",
+    "Analisi 1/imgs/Pasted image 20241006122620.png",
+    "Untitled.canvas",
+    "Analisi 1/Regolarità delle succesioni.md",
+    "esercizi/info.md",
+    "esercizi/Analisi es 3.7.md",
+    "Analisi 1/imgs",
+    "Pasted image 20241006122525.png",
+    "Pasted image 20241006122453.png",
+    "Analisi 1/Pasted image 20241006122418.png",
+    "Pasted image 20241006122305.png",
+    "esercizi/info_lab.md",
+    "esercizi",
+    "Info",
+    "Gal",
+    "Analisi 1",
+    "Analisi 1.md"
+  ]
+}
