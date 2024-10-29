@@ -2,6 +2,8 @@
 ## Analisi
 
 
+Quesito 1.15 da rivedere
+
 29/09
 - [ ] Quesiti 1.1 - 1.17
 

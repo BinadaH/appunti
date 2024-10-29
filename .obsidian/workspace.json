@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Info/Sottoprogrammi.md",
+                "file": "Analisi 1/Quesiti prima parte.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Sottoprogrammi"
+              "title": "Quesiti prima parte"
             }
           }
         ],
@@ -179,9 +179,10 @@
   },
   "active": "75a0979368f4f4b6",
   "lastOpenFiles": [
+    "TODO.md",
+    "greek_alpha.png",
     "Analisi 1/Quesiti prima parte.md",
     "Info/Sottoprogrammi.md",
-    "TODO.md",
     "Gal/Spazio vettoriale.md",
     "Info/Cicli.md",
     "Gal/Spazio Vettoriale.md",
@@ -190,7 +191,6 @@
     "Info/Vettori.md",
     "Info/Selezione, op. logici.md",
     "Info/Untitled.md",
-    "greek_alpha.png",
     "Gal/imgs/Pasted image 20241009154452.png",
     "A,.md",
     "Gal/imgs",
