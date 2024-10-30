@@ -5,10 +5,10 @@
 Quesito 1.15 da rivedere
 
 29/09
-- [ ] Quesiti 1.1 - 1.17
+- [x] Quesiti 1.1 - 1.17
 
 30/09
-- [ ] Quesiti 1.18 - 1.22    numeri complessi
+- [x] Quesiti 1.18 - 1.22    numeri complessi
 
 31/09
 - [ ] Quesiti 1.32 - 1.41    successioni + limiti
