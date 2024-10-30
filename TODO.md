@@ -11,7 +11,7 @@ Quesito 1.15 da rivedere
 - [x] Quesiti 1.18 - 1.22    numeri complessi
 
 31/09
-- [ ] Quesiti 1.32 - 1.41    successioni + limiti
+- [x] Quesiti 1.32 - 1.41    successioni + limiti
 
 01/10
 - [ ] Quesiti 1.42 - 1.54   successioni + limiti
