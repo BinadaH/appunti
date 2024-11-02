@@ -199,7 +199,7 @@ per il teorema del due carabinieri $|a_{n}b_{n}| \to 0$
 e dunque anche $a_{n}b_{n} \to 0$
 
 # 1.46
-#### Enunciare e dimostrare il teorema sulla regolarità delle successioni monotòne.
+#### Enunciare e dimostrare il teorema sulla regolarità delle successioni monotòne. #card
 Ogni successione monotona $a_{n}$ è regolare.
 Inoltre
 Se $a_{n}$ è crescente allora:
@@ -231,4 +231,95 @@ Quindi $a_{n} \to \infty$
 
 
 # 1.47
-#### Dare la definizione di numero di Nepèro. Perché è ben posta?
+
+#### Dare la definizione di numero di Nepèro. Perché è ben posta? #card
+$$
+\lim_{ n \to \infty } \left( 1+\frac{1}{n} \right)^n=e
+$$
+E' ben posta perché $a_{n}$ è crescente e limitata e dunque esiste il limite finito per il teorema della regolarità delle successioni monotone.
+#### crescente
+$a_{n}$ è crescente se e solo se $a_{n} \geq a_{n-1} \quad \forall n\in N$
+ovvero
+$$\left( \frac{n+1}{n} \right)^n \geq \left( \frac{n-1+1}{n-1} \right)^{n-1}=
+\left( \frac{n}{n-1} \right)^n\cdot\left( \frac{n-1}{n} \right)
+$$
+divendendo per $\left( \frac{n}{n-1} \right)^n$
+si ha che $$
+\left[ \frac{(n+1)(n-1)}{n^2} \right]^n\geq \frac{n-1}{n}
+$$
+$$\left( \frac{n^2-1}{n^2} \right)^n \geq \frac{n-1}{n}$$
+$$\left( 1-\frac{1}{n^2} \right)^n \geq 1-\frac{1}{n}$$
+scegliendo $x=-\frac{1}{n^2}$
+per la disuguaglianza di bernulli $(1+x)^n \geq 1+nx$
+questa è vera  $\forall n \in N$
+#### limitata
+
+
+
+# 1.48
+!!!scriversi i limiti notevoli 
+
+
+# 1.49
+
+#### Enunciare e dimostrare il criterio del rapporto per successioni. #card
+Siano $a_{n} > 0 \quad \forall n \in N \ e\  b_{n} = \frac{a_{n+1}}{a_{n}}$  
+Se
+$$
+\lim_{ n \to \infty } b_{n} =l > 1
+$$
+allora
+$$
+a_{n} \to +\infty
+$$
+Per il teorema della permanenza del segno esiste $\nu \in N$ t.c
+$$b_{n}> 1 \quad \forall n >\nu$$
+Dunque
+$$
+a_{n+1} > a_{n} \quad 
+$$
+è crescente decrescente. Quindi per la regolarità delle successioni monotone $\exists a:=\lim_{ n \to \infty }a_{n}$
+Se il limite esistesse finito e $a \in R$ allora $\frac{a_{n+1}}{a_{n}} \to 1$ che è assurdo. Dunque a = $+\infty$
+
+
+# 1.51
+
+#### Dare le definizioni riguardanti i confronti asintotici per successioni infinite e infinitesime. #card
+Siano $a_{n}$ e $b_{n}$ due successioni infinite con $b_{n} \neq 0$ definitivamente.
+Sia $$\lim_{ n \to \infty } \frac{a_{n}}{b_{n}} = l$$
+Se $l = 0$ allora $a_{n}$ è una infinito di ordine ==inferiore== a $b_{n}$
+Se $l = \pm\infty$ allora $a_{n}$ è una infinito di ordine ==superiore== a $b_{n}$
+Se $l \neq 0$ allora $a_{n}$ è una infinito di dello stesso ordine a $b_{n}$
+Sono non paragonabili se il limite del rapporto non esiste
+-
+Se $a_{n} \ e \ b_{n}$ sono infinitesimi
+Se $l = 0$ allora $a_{n}$ è un infinitesimo di ordine ==superiore== a $b_{n}$
+Se $l = \pm\infty$ allora $a_{n}$ è una infinitesimo di ordine ==inferiore== a $b_{n}$
+Se $l \neq 0$ allora $a_{n}$ è una infinito di dello stesso ordine a $b_{n}$
+Sono non paragonabili se il limite del rapporto non esiste
+
+#### Con $\alpha > 1, b>0, \beta >0$
+$$
+n^n \succ n! \succ \alpha^n \succ n^b \succ (\log_{a} n)^\beta
+$$
+
+# 1.52
+
+#### Dare la definizione di successioni asintoticamente equivalenti. Scrivere e dimostrare le proprietà dell’equivalenza asintotica. #card
+Siano $a_{n}$ e $b_{n}$ due successioni. Si dice che $a_{n}$ è asintoticamente equivalente a $b_{n}$
+Se $$\lim_{ n \to \infty } \frac{a_{n}}{b_{n}} = 1$$
+e si scrive $a_{n} \sim b_{n}$
+
+
+# 1.53 - 1.54
+
+#### Introdurre il concetto di o-piccolo di Landau. Fare degli esempi. #card 
+Siano $a_{n}$ e $b_{n}$ due successioni. Si dice che $a_{n}$ è un o-piccolo di $b_{n}$
+Se 
+$$\lim_{ n \to \infty } \frac{a_{n}}{b_{n}}=0$$
+$a_{n}=o(b_{n})$
+#### algebra degli o-piccoli
+$$c\cdot o(a_{n})=o(a_{n})=o(ca_{n})$$
+$$a_{n}o(b_{n})=o(a_{n}b_{n})$$
+$$o\left( \frac{1}{n} \right)+o\left( \frac{1}{n^2} \right)=o\left( \frac{1}{n} \right)$$
+$$o(n)+o(n^2) =o(n^2)$$
