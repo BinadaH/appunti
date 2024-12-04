@@ -4,21 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "b3a49ccc1d69989a",
+        "id": "cb1f491cf4cdb81f",
         "type": "tabs",
         "children": [
           {
-            "id": "e2754a3591ad70e0",
+            "id": "1913ea21af01f393",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Analisi 1/Quesiti prima parte 1.55 - 1.65.md",
-                "mode": "source",
-                "source": false
+                "file": "greek_alpha.png"
               },
-              "icon": "lucide-file",
-              "title": "Quesiti prima parte 1.55 - 1.65"
+              "icon": "lucide-image",
+              "title": "greek_alpha"
             }
           }
         ],
@@ -176,22 +174,39 @@
       "flashcards-obsidian:Generate flashcards": false
     }
   },
-  "active": "e2754a3591ad70e0",
+  "active": "1913ea21af01f393",
   "lastOpenFiles": [
-    "Analisi 1/Quesiti prima parte 1.32- 1.54.md",
-    "Analisi 1/Quesiti prima parte 1.55 - 1.65.md",
-    "Analisi 1/Quesiti prima parte.md",
-    "Analisi 1/Quesiti Prima parte 1.18- 1.22.md",
-    "Analisi 1/Limiti di successione.md",
-    "TODO.md",
-    "Info/Puntatori.md",
-    "Gal/Spazio vettoriale.md",
+    "Analisi 1/Parte 2/Quesiti 2.1 - 2.19.md",
     "Analisi 1/imgs/Pasted image 20241006122620.png",
+    "Analisi 1/imgs/Pasted image 20241107185654.png",
+    "Analisi 1/Parte 2/imgs/Pasted image 20241204090855.png",
+    "Analisi 1/Parte 2/imgs",
+    "Analisi 1/Parte 2/TODO.md",
+    "Analisi 1/Parte 1/Quesiti prima parte 1.32- 1.54.md",
+    "Analisi 1/Parte 1/Quesiti Prima parte 1.18- 1.22.md",
+    "Analisi 1/Insiemistica.md",
     "greek_alpha.png",
+    "TODO.md",
+    "Analisi 1/Parte 1/Goniometria.md",
+    "Analisi 1/Parte 1/Quesiti prima parte 1.55 - 1.65.md",
+    "Analisi 1/Parte 2",
+    "Untitled 1",
+    "Gal/Spazio vettoriale.md",
+    "Analisi 1/Parte 1",
+    "Untitled",
+    "Gal/Matrici.md",
+    "Analisi 1/Parte 1/Quesiti prima parte.md",
+    "Analisi 1/imgs/Pasted image 20241107185643.png",
+    "Analisi 1/imgs/Pasted image 20241107185628.png",
+    "Analisi 1/imgs/Pasted image 20241107185601.png",
+    "Analisi 1/imgs/Pasted image 20241107185555.png",
+    "Analisi 1/imgs/Pasted image 20241107123559.png",
+    "Quesiti 1.23 - 1.31.md",
+    "Analisi 1/Parte 1/Limiti di successione.md",
+    "Info/Puntatori.md",
     "Info/Sottoprogrammi.md",
     "Info/Cicli.md",
     "Gal/Spazio Vettoriale.md",
-    "Gal/Matrici.md",
     "Info/Vettori.md",
     "Info/Selezione, op. logici.md",
     "Info/Untitled.md",
@@ -203,15 +218,9 @@
     "esercizi/info.md",
     "esercizi/Analisi es 3.7.md",
     "Analisi 1/imgs",
-    "Pasted image 20241006122525.png",
-    "Pasted image 20241006122453.png",
-    "Analisi 1/Pasted image 20241006122418.png",
-    "Pasted image 20241006122305.png",
     "esercizi/info_lab.md",
     "esercizi",
     "Info",
-    "Gal",
-    "Analisi 1",
-    "Analisi 1.md"
+    "Gal"
   ]
 }

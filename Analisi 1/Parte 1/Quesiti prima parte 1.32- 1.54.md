@@ -132,7 +132,7 @@ per la disuguaglianza triangolare
 $|a_{n}|  = |a_{n}-l+l| \leq |a_{n}-l| + |l| < \epsilon + |l|$
 scelgo come $\epsilon = 1$
 e quindi $\exists \nu_{e} \in N\quad t.c\quad |a_{n}| < 1+|l| \quad n\geq \nu_{e}$
-pongo $M =max\{a_{0}, a_{1}, a_{2}, \dots, 1+|l|\}$
+pongo $M =max\{|a_{0}|, |a_{1}|, |a_{2}|, \dots, 1+|l|\}$
 Dunque $|a_{n}| < M \quad \forall n\in N$ ovvero $a_{n}$ è limitata
 ^1730661070576
 
