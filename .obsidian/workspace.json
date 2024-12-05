@@ -11,12 +11,14 @@
             "id": "1913ea21af01f393",
             "type": "leaf",
             "state": {
-              "type": "image",
+              "type": "markdown",
               "state": {
-                "file": "greek_alpha.png"
+                "file": "Analisi 1/Parte 2/Quesiti 2.1 - 2.19.md",
+                "mode": "source",
+                "source": false
               },
-              "icon": "lucide-image",
-              "title": "greek_alpha"
+              "icon": "lucide-file",
+              "title": "Quesiti 2.1 - 2.19"
             }
           }
         ],
@@ -72,11 +74,13 @@
               "title": "Bookmarks"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 342.5
+    "width": 342.5,
+    "collapsed": true
   },
   "right": {
     "id": "ea3db3de9363d383",
@@ -176,19 +180,24 @@
   },
   "active": "1913ea21af01f393",
   "lastOpenFiles": [
+    "4.c",
+    "3.c",
+    "2.c",
+    "1.c",
+    "info",
+    "Analisi 1/Parte 1/Quesiti prima parte 1.32- 1.54.md",
     "Analisi 1/Parte 2/Quesiti 2.1 - 2.19.md",
+    "Analisi 1/Parte 1/Quesiti prima parte 1.55 - 1.65.md",
+    "greek_alpha.png",
     "Analisi 1/imgs/Pasted image 20241006122620.png",
     "Analisi 1/imgs/Pasted image 20241107185654.png",
     "Analisi 1/Parte 2/imgs/Pasted image 20241204090855.png",
     "Analisi 1/Parte 2/imgs",
     "Analisi 1/Parte 2/TODO.md",
-    "Analisi 1/Parte 1/Quesiti prima parte 1.32- 1.54.md",
     "Analisi 1/Parte 1/Quesiti Prima parte 1.18- 1.22.md",
     "Analisi 1/Insiemistica.md",
-    "greek_alpha.png",
     "TODO.md",
     "Analisi 1/Parte 1/Goniometria.md",
-    "Analisi 1/Parte 1/Quesiti prima parte 1.55 - 1.65.md",
     "Analisi 1/Parte 2",
     "Untitled 1",
     "Gal/Spazio vettoriale.md",
@@ -217,10 +226,6 @@
     "Analisi 1/Regolarità delle succesioni.md",
     "esercizi/info.md",
     "esercizi/Analisi es 3.7.md",
-    "Analisi 1/imgs",
-    "esercizi/info_lab.md",
-    "esercizi",
-    "Info",
-    "Gal"
+    "esercizi/info_lab.md"
   ]
 }

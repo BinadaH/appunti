@@ -234,5 +234,58 @@ f è discontinua in $x_{0} = 0$ e f(0) = 1/2 > 0
 Ma in ogni intorno di $x_{0} = 0$ esistono punti x in cui f(x) < 0
 # 2.15
 
-#### Enunciare e dimostrare il teorema di esistenza degli zeri. Discutere il ruolo delle ipotesi. #card 
+#### Enunciare e dimostrare il teorema di esistenza degli zeri.  #card 
+Sia f : [a, b] -> R una funzione continua in [a, b]
+Supponiamo che f(a)f(b) < 0
+Ovvero agli estremi la funzione assume valori discordi
+Allora $\exists x_{0} \in R$ : f($x_{0}$) = 0.
+Dim
+Assumiamo che f(a) < 0 e f(b) > 0
+$$c := \frac{a+b}{2}$$
+Se $f(c) = 0$ allora $x_{0} = c$
+Se $f(c) < 0$ allora f assume valori discordi tra c e b
+Se $f(c) > 0$ allora f assume valori discordi tra a e c
+Sia $[a_{1}, b_{1}]$ il nuovo intervallo con
+$a_{1} = c \ e \ b_{1} = b$ se $f(c) < 0$
+$a_{1} = a \ e \ b_{1} = c$ se $f(c) > 0$
+Sia ha che $f(a_{1}) < 0 \ e \ f(b_{1}) > 0$
+Definiamo $c_{1} := \frac{a_{1}+b_{1}}{2}$
+Si ripete il ragionamento precedente.
+In questo modo si ottengono tre successioni:
+$$\{a_{n}\} \ \{b_{n}\} \ \{c_{n}\} \ \ con  \ \ n \in N, n\geq {1}$$
+$$c_{n} = \frac{a_{n}+b_{n}}{2}$$
+$$a_{n+1} = c_{n} \ \ e \ \ b_{n+1} = b_{n} \quad se f(c_{n}) < 0$$$$a_{n+1} = a_{n} \ \ e \ \ b_{n+1} = c_{n} \quad se f(c_{n}) >0$$
+$$\{a_{n}\} \ è \ crescente \qquad \{b_{n}\} \ è \ decrescente$$
+Inoltre:
+$$a < a_{n} \leq c_{n} \leq b_{n} < b$$
+$\{a_n\}$ è limitata e per il teorema di regolarità delle successioni monotone.
+$$\exists \xi=\lim_{ n \to +\infty }  a_{n} \in R$$
+Per la proprietà di confronto $$a \leq \xi \leq b$$
+Inoltre, $$b_{n} - a_{n} = \frac{b-a}{2^n} \implies b_{n} = a_{n} + \frac{b-a}{2^n}$$
+$$\lim_{ x \to +\infty } b_{n} = \xi$$
+Essendo f continua in [a, b] 
+$$f(a_{n}) \to_{n \to +\infty} f(\xi) \ e \ f(b_{n}) \to f(\xi)$$
+Per il teorema della permanenza del segno
+$$\lim_{ n \to \infty } f(a_{n}) \leq {0}, \lim_{ n \to \infty } f(b_{n}) \geq {0}$$
+$$0 \leq f(\xi) \leq 0$$
+Perciò $f(\xi)  =0, x_{0} = \xi$
 
+# 2.16
+
+#### Enunciare e dimostrare il teorema dei valori intermedi. Discutere il ruolo delle ipotesi. #card
+Una funzione f continua in un intervallo I assume tutti i valori tra:
+$$\underset{I}{inf}  \ f \ \ e \ \underset{I}{sup}  \ f$$
+$$\forall y_{0} \in (\underset{I}{inf}  \ f \ \ e \ \underset{I}{sup}  \ f) \exists x_{0} \in R : \\ f(x_{0}) = y_{0}$$
+Dim:
+Siano:
+$$m = \text{inf} f, \ M = \text{sup}f  \quad(in\ I) \quad, y_{0} \in (m, M)$$
+Poiché $y_{0} > m$ per definizione di inf e $y_{0}<M$ per definizione di sup
+$$\exists a \in I : f(a) <y_{0}$$
+$$\exists b\in I: f(b) > y_{0}$$
+Definiamo
+$$g(x) = f(x) - y_{0}, \ x \in [a, b]$$
+g(x) è continua in [a, b]
+
+$$g(a) < 0 \land g(b) > 0$$
+Per il teorema di esistenza degli zeri
+$$\exists x_{0}\in [a, b] : g(x_{0}) = 0 \implies f(x_{0}) = y_{0}$$
