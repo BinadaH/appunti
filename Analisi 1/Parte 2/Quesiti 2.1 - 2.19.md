@@ -1,3 +1,7 @@
+---
+cards-deck: "Analisi 2/2.1-1.19 (funzioni: limiti e continuità)"
+---
+
 [[Insiemistica]]
 # 2.1
 
@@ -125,7 +129,9 @@ $$\lim_{ x \to x_{0} } f(x)g(x) = 0$$
 Una funzione si dice infinita se 
 $$\lim_{ x \to \overline x } f(x) =\pm\infty $$
 con $\overline x$ punto di accumulazione di A oppure $=\pm\infty$
-!!!!
+#### Gerarchia degli infiniti e infinitesimi
+
+
 # 2.8 
 
 #### Enunciare il teorema sul limite di funzioni monotòne. #card
@@ -161,7 +167,7 @@ $$q = \lim_{ x \to \pm\infty } [f(x) - mx] $$
 # 2.10
 
 #### Dare la definizione di funzione continua in un punto, di funzione continua in un insieme. #card
-Una funzione $f : A \subseteq R \to R$ e $x_{0}$ un punto di accumulazione di A. f è detta continua in $x_{0}$ se $$\lim_{ x \to x_{0} } f(x) = f(x)$$
+Una funzione $f : A \subseteq R \to R$ e $x_{0}$ un punto di accumulazione di A. f è detta continua in $x_{0}$ se $$\lim_{ x \to x_{0} } f(x) = f(x_{0})$$
 Nella definizione di limite non escludo $x_{0}$ per non togliere significato a $f(x)$
 f si dice continua in A se è continua per ogni $x_{0}$
 
@@ -289,3 +295,44 @@ g(x) è continua in [a, b]
 $$g(a) < 0 \land g(b) > 0$$
 Per il teorema di esistenza degli zeri
 $$\exists x_{0}\in [a, b] : g(x_{0}) = 0 \implies f(x_{0}) = y_{0}$$
+
+# 2.17
+
+#### Dare le definizioni di massimo e di minimo assoluto, di punto di massimo e di minimo assoluto di una funzione. #card 
+Sia f : $A \subseteq R \to R$ una funzione e si $x_{0} \in A$.
+- $x_{0}$ si dice ==punto di massimo assoluto== per f in A se:
+ $$f(x) \leq f(x_{0}) \quad \forall x \in A$$
+- f($x_{0}$) si dice valore ==massimo assoluto== di f in A
+- $x_{0}$ si dice ==punto di minimo assoluto== per f in A se:
+ $$f(x) \geq f(x_{0}) \quad \forall x \in A$$
+- f($x_{0}$) si dice valore ==minimo assoluto== di f in A
+
+
+# 2.18
+
+#### Enunciare il teorema di Weierstrass. Discutere il ruolo delle ipotesi. #card 
+Una funzione $f : [a, b]\to R$ continua in $[a, b]$ ammette massimo e minimo in $[a, b]$
+OSS.
+è importante che la funzione sia definita e continua in un intervallo ==chiuso e limitato==. (non aperta e non illimitata)
+f : (-1, 1) -> R, f(x) = x
+f : R -> R, f(x) = x
+f non ammette massimo o minimo assoluto nell'intervallo considerato
+OSS.
+è importate che la funzione sia continua nell'intervallo
+OSS.
+non è indispensabile che I sia un intervallo:
+$$I = [a_{1}, b_{1}] \cup[a_{2}, b_{2}]$$
+Infatti basta trovare il massimo tra i massimi di ogni intervallo.
+ 
+
+
+
+# 2.19
+
+#### Enunciare il teorema sulla continuià della funzione inversa. Discutere il ruolo delle ipotesi. #card 
+Sia f definita in un intervallo I, continua e invertibile in I. Allora $f^{-1}$ è continua.
+OSS.
+I deve essere un intervallo se no non è vero.
+OSS.
+- le funzioni goniometriche inverse sono continue nel proprio insieme di definizione essendo le funzioni goniometriche continue.
+- sia a > 0, $a\neq 1$ $\log_{a}x$ è continua in (0, +$\infty$) poiché la funzione esponenziale $a^x$ è continua
