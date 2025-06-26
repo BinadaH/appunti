@@ -1,0 +1,1 @@
+in una reazione di addizione elettrofila l'idrogeno si lega al carbonio più idrogenato del doppio legame. Si lega al carbonio meno sostituito.

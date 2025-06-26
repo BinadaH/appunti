@@ -4,21 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "cb1f491cf4cdb81f",
+        "id": "4a01837df623ce80",
         "type": "tabs",
         "children": [
           {
-            "id": "1ecfe8efcc46563b",
+            "id": "cab8cbf431611e31",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Analisi 1/Parte 1/Quesiti prima parte 1.32- 1.54.md",
+                "file": "Chimica/Steriochimica.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Quesiti prima parte 1.32- 1.54"
+              "title": "Steriochimica"
             }
           }
         ],
@@ -41,7 +41,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -78,7 +79,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 216.5
   },
   "right": {
     "id": "ea3db3de9363d383",
@@ -173,56 +174,60 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-spaced-repetition:Review flashcards": false,
-      "flashcards-obsidian:Generate flashcards": false
+      "flashcards-obsidian:Generate flashcards": false,
+      "tldraw:Create new tldrawing": false,
+      "obsidian-excalidraw-plugin:New drawing": false
     }
   },
-  "active": "1ecfe8efcc46563b",
+  "active": "cab8cbf431611e31",
   "lastOpenFiles": [
+    "Chimica/imgs/Pasted image 20250626202309.png",
+    "Chimica/imgs/Pasted image 20250626201712.png",
+    "Chimica/Alchini.md",
+    "Chimica/Steriochimica.md",
+    "Chimica/Alcheni.md",
+    "Chimica/Alcani.md",
+    "Chimica/Markovnikov.md",
+    "Chimica/Composti Carbonilici.md",
+    "Chimica/Acido Carbossilico.md",
+    "Chimica/imgs/Pasted image 20250625145043.png",
+    "Chimica/imgs/Pasted image 20250313143528.png",
+    "Chimica/Alcoli.md",
+    "Chimica/Chetone.md",
+    "Chimica/Aldeide.md",
+    "Chimica/imgs/Pasted image 20250625142818.png",
+    "Chimica/imgs/Pasted image 20250625142815.png",
+    "Chimica/imgs/Pasted image 20250625142602.png",
+    "Chimica/imgs/Pasted image 20250625142350.png",
+    "Chimica/imgs/Pasted image 20250625142307.png",
+    "Chimica/imgs/Pasted image 20250625141759.png",
+    "Chimica/imgs/Pasted image 20250625141449.png",
+    "Chimica/Cicloalcani.md",
+    "Chimica/Sostituenti.md",
+    "Chimica/Reazioni.md",
+    "Chimica/Organica.md",
+    "Chimica/Ossido-riduzione.md",
+    "Chimica/Elettrofilo.md",
+    "Chimica/Idrocarburi aromatici monociclici.md",
+    "Chimica/Nucleofilo.md",
+    "Chimica/Radicali.md",
     "Analisi 1/Parte 2/Quesiti 2.20 - 2.45.md",
-    "Analisi 1/Parte 2/Quesiti 2.46 - 2.65.md",
-    "Analisi 1/Parte 2/Quesiti 2.1 - 2.19.md",
-    "Analisi 1/Parte 2/imgs/Pasted image 20241220110653.png",
-    "Analisi 1/Parte 2/TODO.md",
-    "Info/Selezione, op. logici.md",
-    "Analisi 1/Parte 1/Quesiti prima parte 1.32- 1.54.md",
-    "Analisi 1/Parte 1/Quesiti prima parte.md",
-    "Analisi 1/Parte 1/Limiti di successione.md",
-    "Analisi 1/Parte 2/imgs/Pasted image 20241212100703.png",
-    "greek_alpha.png",
-    "Analisi 1/Insiemistica.md",
-    "Analisi 1/Parte 1/Quesiti prima parte 1.55 - 1.65.md",
-    "Analisi 1/Parte 1/Quesiti Prima parte 1.18- 1.22.md",
-    "Analisi 1/imgs/Pasted image 20241006122620.png",
-    "4.c",
-    "3.c",
-    "2.c",
-    "1.c",
-    "info",
-    "Analisi 1/imgs/Pasted image 20241107185654.png",
-    "Analisi 1/Parte 2/imgs/Pasted image 20241204090855.png",
-    "Analisi 1/Parte 2/imgs",
-    "TODO.md",
-    "Analisi 1/Parte 1/Goniometria.md",
-    "Analisi 1/Parte 2",
+    "Chimica/Nomenclatura.md",
+    "Chimica/Untitled.md",
+    "Economia/Costo.md",
+    "Chimica/Materia.md",
+    "Chimica/Numero di ossidazione.md",
+    "Musica",
     "Untitled 1",
-    "Gal/Spazio vettoriale.md",
-    "Analisi 1/Parte 1",
-    "Untitled",
-    "Gal/Matrici.md",
-    "Analisi 1/imgs/Pasted image 20241107185643.png",
-    "Analisi 1/imgs/Pasted image 20241107185628.png",
-    "Analisi 1/imgs/Pasted image 20241107185601.png",
-    "Analisi 1/imgs/Pasted image 20241107185555.png",
-    "Quesiti 1.23 - 1.31.md",
-    "Info/Puntatori.md",
-    "Info/Sottoprogrammi.md",
-    "Info/Cicli.md",
-    "Gal/Spazio Vettoriale.md",
-    "Info/Vettori.md",
-    "Info/Untitled.md",
-    "A,.md",
-    "Untitled.canvas",
-    "Analisi 1/Regolarità delle succesioni.md",
-    "esercizi/info.md"
+    "Musica/Untitled",
+    "Chimica/esercizi/imgs/Tldraw 2025-03-17 11.33AM.tldr",
+    "Chimica/esercizi/imgs",
+    "Chimica/esercizi",
+    "Chimica/Untitled.canvas",
+    "Fisica/imgs",
+    "Fisica",
+    "Economia/imgs/imgs",
+    "Economia/imgs",
+    "Untitled.canvas"
   ]
 }

@@ -14,3 +14,6 @@ Quesiti
 - [ ] Da completare quesiti 2.23, 2.22
 - [ ] Da rivedere polinomio di Taylor resto di Lagrange
 - [ ] 
+
+
+- [ ] asdsad

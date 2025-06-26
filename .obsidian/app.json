@@ -1,6 +1,5 @@
 {
   "vimMode": true,
-  "showRibbon": false,
   "showLineNumber": false,
   "readableLineLength": true,
   "attachmentFolderPath": "./imgs",
@@ -10,5 +9,6 @@
     "landscape": false,
     "margin": "0",
     "downscalePercent": 100
-  }
+  },
+  "alwaysUpdateLinks": true
 }

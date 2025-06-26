@@ -1,3 +1,7 @@
+---
+cards-deck: Analisi 2/2.20-245 (derivate)
+---
+
 
 # 2.20
 
@@ -51,7 +55,7 @@ $f'(x_{0}) = \lambda$
 
 # 2.22
 
-#### Calcolare la derivata delle funzioni elementari. #card 
+#### Calcolare la derivata delle funzioni elementari. 
 ![[Pasted image 20241212100703.png]]
 
 
@@ -69,7 +73,7 @@ DIM
 
 # 2.24
 
-#### Enunciare il teorema sulla derivata della funzione composta.#card 
+#### Enunciare il teorema sulla derivata della funzione composta #card 
 Siano f e g due funzioni derivabili:
 La funzione composta è derivabile:
 regola della catena
@@ -363,10 +367,10 @@ $$\lim_{ x \to x_{0} } \frac{1}{n!}[\lim_{ x \to x_{0} } ] $$
 
 # 2.44
 
-#### Scrivere la formula di di Taylor con resto di Lagrange.
+#### Scrivere la formula di di Taylor con resto di Lagrange. #card
 Se la funzione è derivabile n + 1 volte in (a, b), $x_{0} \in (a, b)$
 Allora.
 $$f(x) = P_{n}(x) + \frac{f^{(n+1)}(\xi)}{(n+1)!}(x-x_{0})^{n+1}$$
-per qualche $\xi$ tra x e $x_{0}$
-$$R_{n}(x) = \frac{f^{(n+1)}(\xi)}{(n + 1)!}(x-x_{0})^{n+1}$$
+per qualche $\xi$ tra x e $x_{0}$ $$R_{n}(x) = \frac{f^{(n+1)}(\xi)}{(n + 1)!}(x-x_{0})^{n+1}$$
 Questo è detto resto di Lagrange.
+

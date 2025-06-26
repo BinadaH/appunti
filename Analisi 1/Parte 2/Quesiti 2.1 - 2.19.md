@@ -99,7 +99,7 @@ $$\forall \{x_{n}\} \subset A \ \text{\\} \ \{0\} \ \text{con} \ x_{n}\to x_{0}$
 # 2.4
 
 #### Enunciare l'unicità del limite #card
-
+	
 #### Permanenza del segno #card
 
 #### confronto (o dei due carabinieri) #card
@@ -134,12 +134,16 @@ con $\overline x$ punto di accumulazione di A oppure $=\pm\infty$
 
 # 2.8 
 
+
 #### Enunciare il teorema sul limite di funzioni monotòne. #card
 Se $f(x)$ è crescente $\forall x \in (a, b)$
 $$\lim_{ x \to x_{0}^- } f(x) = sup_{a < x < x_{0}} \ f(x)$$
 Se $f(x)$ è decrescente $\forall x \in (a, b)$
 $$\lim_{ x \to x_{0}^- } = inf_{a < x < x_{0}} f(x)$$
+
+
 # 2.9 
+
 
 ##### Introdurre gli asintoti verticali, orizzontali ed obliqui. #card
 #### verticale
@@ -177,7 +181,7 @@ f si dice continua in A se è continua per ogni $x_{0}$
 Sia g una funzione continua in $y_{0} = \lim_{ x \to x_{0} }f(x)$ allora $$\lim_{ x \to x_{0} } g(f(x)) = g(\lim_{ x \to x_{0} } f(x))$$
 Dim
 Bisogna dimostrare che 
-$$\forall \epsilon >0 \ \exists\delta>0 : 0 < |x-x_{0}|< \delta \implies|g(f(x)) - f(y_{0})| < \epsilon$$
+$$\forall \epsilon >0 \ \exists\delta>0 : 0 < |x-x_{0}|< \delta \implies|g(f(x)) - g(y_{0})| < \epsilon$$
 Essendo g(y) continua in $y_{0}$
 $$ \forall\epsilon>0\exists \overline \delta>0 : |y - y_{0}| < \overline\delta \implies|g(y) - g(y_{0})| < \epsilon$$
 Inoltre poiché $$\lim_{ x \to x_{0} } f(x)=y_{0}$$
@@ -199,7 +203,8 @@ Per il teorema del limite di funzioni composte
 $$\lim_{ x \to x_{0} } g(f(x)) =g(\lim_{ x \to x_{0} } f(x)) = g(y_{0}) = g(f(x_{0}))$$
 
 # 2.13
-#### Cosa si intende per punto di discontinuità? Illustrarne vari casi. #card 
+
+#### Cosa si intende per punto di discontinuità? Illustrarne vari casi #card 
 Sia f : A $\subseteq R$ -> R una funzione, $x_{0} \in A$. Se f non è continua in $x_{0}$ si dice che f è discontinua in $x_{0}$ e che ==$x_{0}$ è un di discontinuità per f==.
 Tipologie:
 #### Discontinuità eliminabile:
@@ -238,6 +243,7 @@ Es.
 $f(x) := \frac{1}{2} + sgn(x)$
 f è discontinua in $x_{0} = 0$ e f(0) = 1/2 > 0
 Ma in ogni intorno di $x_{0} = 0$ esistono punti x in cui f(x) < 0
+
 # 2.15
 
 #### Enunciare e dimostrare il teorema di esistenza degli zeri.  #card 
@@ -281,7 +287,7 @@ Perciò $f(\xi)  =0, x_{0} = \xi$
 #### Enunciare e dimostrare il teorema dei valori intermedi. Discutere il ruolo delle ipotesi. #card
 Una funzione f continua in un intervallo I assume tutti i valori tra:
 $$\underset{I}{inf}  \ f \ \ e \ \underset{I}{sup}  \ f$$
-$$\forall y_{0} \in (\underset{I}{inf}  \ f \ \ e \ \underset{I}{sup}  \ f) \exists x_{0} \in R : \\ f(x_{0}) = y_{0}$$
+$$\forall y_{0} \in (\underset{I}{inf}  \ f \ \ e \ \underset{I}{sup}  \ f) \exists x_{0} \in I : \\ f(x_{0}) = y_{0}$$
 Dim:
 Siano:
 $$m = \text{inf} f, \ M = \text{sup}f  \quad(in\ I) \quad, y_{0} \in (m, M)$$

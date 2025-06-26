@@ -1,7 +1,7 @@
 ---
 cards-deck: Analisi 1/1.32-1.54 (lim succ)
 ---
-
+QQ
 
 
 # 1.32

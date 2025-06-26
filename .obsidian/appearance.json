@@ -3,5 +3,6 @@
   "enabledCssSnippets": [
     "read_width"
   ],
-  "theme": "obsidian"
+  "theme": "obsidian",
+  "showRibbon": false
 }
